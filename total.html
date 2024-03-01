@@ -1,0 +1,401 @@
+<script>
+    // <!--starting-js-read-this-simple-example-->
+
+    a=10
+    b=20
+    c=a+b
+    console.log(c)
+
+c=20;
+d=40;
+e=50;
+f=(c*d)+(d*e)
+console.log(f)
+
+// <!--conditional-structure-->
+// <!--js-ko -start-krny -ky-ly-statement-ki-zrorat-hoti-ha-jisy-condition- khaty- ha-->
+// <!--if-condition-/statement->
+
+let age=20;
+           if(age>=20){
+             console.log('age')
+           }
+
+let agee=18;
+           if(agee>=19){
+            console.log('yes you are aligeble');
+           }else{
+            console.log('No you can,t aligible');
+           }
+
+
+
+
+let ageee=17;
+
+            if(ageee>=50){
+                 console.log('good girle');
+            }else if(ageee==18){
+                 console.log('no good');
+            }else{
+                console.log('fail');
+            }
+
+let marks=70;
+let gradei='g';
+            if(marks>=80){
+               gradei='a+';
+            }else if(marks>=70){
+               gradei='a';
+            }else if(marks>=60){
+               gradei='b+';
+            }else if(marks>=50){
+               gradei='b';
+            }else{
+               gradei='fail'
+            }
+     console.log(gradei)
+
+
+let total_school_of_punjab=300;
+let numbering='weldon';
+
+                       if(total_school_of_punjab>=500){
+                             numbering='smallest_education';
+                       }else if(total_school_of_punjab>=400){
+                         numbering='Education_no_improved';
+                       }else if(total_school_of_punjab>=300){
+                         numbering='flexciable';
+                       }else if(total_school_of_punjab>=200){
+                         numbering='secound_rank';
+                       }else if(total_school_of_punjab>=100){
+                         numbering='first_rank';
+                       }else{
+                         numbering='No-EDUCATED'
+                       }
+                                       
+console.log(numbering)
+             
+// alert and prompt useing<logical-operator->
+
+
+let value=prompt();
+let table=40;
+
+if(table>=40 && table<50){
+    alert('a+');
+}else if(table>=50 && table<60){
+  alert('a');
+}else if(table>=60 && table<70){
+  alert('b+');
+}else if(table>=80 && table<90){
+  alert('b');
+}else if(table>=90 && table<100){
+  alert('c+');
+}else if(table>=100 && table<110){
+  alert('c');
+}else if(table>=110 && table<120){
+  alert('d+');
+}else if(table>=120 && table<130){
+  alert('d');
+}else{
+  alert('afsos');
+}
+
+
+let valuee=prompt();
+let markssss=60;
+    
+if(markssss>=90){
+  alert('a++');
+}else if(markssss>=80){
+  alert('a+');
+}else if(markssss>=70){
+  alert('a');
+}else if(markssss>=60){
+  alert('b++');
+}else if(markssss>=50){
+  alert('b+');
+}else if(markssss>=40){
+  alert('b');
+}else if(markssss>=30){
+  alert('c++');
+}else if(markssss>=20){
+  alert('c+');
+}else if(markssss>=10){
+  alert('c')
+}else{
+  alert('boht afsose howa');
+}
+
+
+let markss=75;
+if(markss>=32){
+  console.log('mubarakhan')
+}else{
+  console.log('afsos')
+}
+
+let school=22;
+if(school>=10){
+  console.log('pass')
+}else{
+  console.log('fail')
+}
+
+
+
+
+// <!---ternery-operator-->
+
+// let number=100;
+//               marks_es=33? 'pass_ho_gi' : 'failed';
+//               console.log(marks_es)
+
+
+
+
+
+// <!--using-switch-statement-->
+
+let city=prompt('good-luck');
+switch('uia'){
+
+             case 'uia':
+              console.log('United_state_Amrican')
+              break;
+
+             case 'uk':
+              console.log('united_kingdom')
+              break;
+              
+              case 'kpk':
+              console.log('khaber')
+              break;
+
+              case 'lhr':
+              console.log('lahore')
+              break;
+
+              case 'mlt':
+              console.log('multan')
+              break;
+
+             default:
+              console.log('city not found');
+
+
+}
+
+let a=prompt('enter any day');
+switch(true){
+    case(a==1):
+    alert('sunday');
+  break;
+  case(a==2):
+  alert('monday');
+  break;
+  case(a==3):
+  alert('tuesday');
+  break;
+  case(a==4):
+  alert('wednesday');
+  break;
+  case(a==5):
+  alert('thursday');
+  break;
+  case(a==6):
+  alert('friday');
+  break;
+  case(a==7):
+  alert('sduarday');
+  break;
+
+}
+
+let marksss='20';
+let grade;
+
+switch(true){
+  case marks>=80:
+    grade='a+';
+    break;
+
+    case marks>=70:
+    grade='a';
+    break;
+
+    case marks>=60:
+    grade='b+';
+    break;
+
+    case marks>=50:
+    grade='b';
+    break;
+default:grade= 'afsos';
+
+}
+console.log(grade);
+
+// usees aler in switch statement
+
+let marksi=45;
+                switch(45){
+                  case marksi>40 && marks<50:
+                    alert('d grade');
+                    break;
+                  case 45:
+                    alert('mara code chly');
+                    break;
+                  case marksi>50 && marks<60: 
+                  alert('a grade');
+                  break;
+                }
+
+
+//   <!-new-topic-for-loop--/or-counting-wala-loop--->
+
+// ye table wala code ha
+let main=12;
+
+for(let get_the_run=1;get_the_run<=10;get_the_run=get_the_run+1){
+console.log(main+'X'+ get_the_run+'='+main*get_the_run);
+}
+
+let alpha=34;
+
+for(let betta=20;betta<=100;betta=betta+1){
+  console.log(alpha+' x '+betta+'  =  '+alpha*betta);
+}
+
+// <!--ulti-counting-krna-->
+
+for(let marksss=100;marksss>20;marksss=marksss-1){
+console.log(marksss)
+}
+// <right-counting
+for(let right_counting=1;right_counting<=10;right_counting++){
+  console.log(right_counting)
+}
+
+// / staric ko print krna
+
+let follow='*'
+
+for(let i=1;i<=4;i++){
+    console.log(follow);
+    follow+='*';
+}
+
+for(i=3;i>=1;i--){
+    let str='';
+     for(let j=1;j<=i;j++){
+        str+='*'
+     }
+     console.log(str);
+}
+// single--staric--wala--code
+
+for(let i=1;i<=4;i++){
+    let str='';
+    for(let j=1;j<=i;j++){
+        str+=' ';
+    }
+    str+='*';
+    console.log(str);
+}
+
+
+for(let i=4;i>=1;i--){
+    let str='';
+    for(let j=1;j<=i;j++){ 
+        str+=' ';
+    }
+    str+='*';
+    console.log(str);
+}
+     
+
+let stars=1;
+let space=3;
+
+for(let i=1;i<=4;i++){
+  let str='';
+     for(let j=1;j<=space;j++){
+      str+=' ';
+     }
+     for(let j=1;j<=stars;j++){
+      str+='*';
+     }
+        space--;
+        stars+=2;
+        console.log(str);
+}
+
+
+let starss = 7;
+let spaces = 0;
+  for(let i = 1;i<=4;i++){
+    let str = '';
+    // yeh spaces add krne keliye
+    for(let j=1;j<=spaces;j++){
+         str += ' ';
+    }
+    //yeh stars add krne keliye
+    for(let j=1;j<=starss;j++){
+        str += '*';
+    }
+    //har line m 1 space kum krne keliye
+    spaces++;
+    // har line m 2 stars add krne keliye
+    starss -= 2;
+    console.log(str);
+  }
+
+
+
+// odd--number
+
+for(let i=1;i<=10;i++){
+    if(i%2!=0)
+    console.log(i);
+}
+// even--number
+
+for(let i=20;i>=1;i--){
+    if(i%2==0)
+    console.log(i);
+}
+
+// ----given-s-task--
+
+for(let i=35;i<=40;i++){
+            console.log(i);
+         }
+
+
+
+// Email wala code
+hello=false;
+hy=false;
+ let l='amina@gmail.com';
+
+        for(let a=0;a<l.length;a++){
+         let oppo=l.slice(a,a+6)
+         if(oppo=='@gmail'){
+             hello=true;
+         }
+         let oppi=l.slice(a,a+4)
+         if(oppi=='.com'){
+            hy=true;
+         }
+
+        }
+        if(hello==true && hy==true){
+console.log('yes')
+       }else{
+        console.log('No')
+       }
+
+
+</script>

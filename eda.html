@@ -1,0 +1,24 @@
+<script>
+
+// ------------------------------
+function hoursToSeconds(hours) {
+  // 1 hour = 60 minutes, 1 minute = 60 seconds
+  return hours * 60 * 60;
+}
+
+// Example: Convert 2 hours to seconds
+let hours = 10;
+let seconds = hoursToSeconds(hours);
+console.log(`${hours} hours is equal to ${seconds} seconds.`);
+// ----------------------------------------
+function addPairs(pair1, pair2) {
+  let resultPair = [pair1[0] + pair2[0], pair1[1] + pair2[1]];
+  return resultPair;
+}
+
+let result = addPairs([1, 2], [3, 4]);
+console.log(result);  // Output: [4, 6]
+
+
+
+</script>
